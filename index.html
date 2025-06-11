@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GezGöz - Onepage Anasayfa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         /* Genel Stiller */
         .navbar-custom {
@@ -299,6 +300,75 @@
         .qr-share>img {
             height: 150px;
         }
+        .my-info{
+            font-weight: bolder;
+        }
+        .sosyalbutonlar {
+            margin-top: 50px;
+            display: inline-block;
+            position: relative;
+        }
+
+        .sosyalbutonlar a {
+            background: #a1a1a1;
+            text-decoration: none;
+            color: #FFF;
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+            border-radius: 10px;
+            margin-right: 20px;
+            font-size: 30px;
+            overflow: hidden;
+            position: relative;
+            line-height: 60px;
+            text-align: center;
+        }
+
+        .sosyalbutonlar a {
+            transition: transform 0.4s linear 0s,
+                border-top-left-radius 0.1s linear 0s,
+                border-top-right-radius 0.1s linear 0.1s,
+                border-bottom-right-radius 0.1s linear 0.2s,
+                border-bottom-left-radius 0.1s linear 0.3s;
+
+        }
+
+        .sosyalbutonlar .facebook:hover {
+            background-color: #3b5998;
+            transform: rotate(360deg);
+            border-radius: 50%;
+        }
+
+        .sosyalbutonlar .twitter:hover {
+            background-color: #00aced;
+            transform: rotate(360deg);
+            border-radius: 50%;
+        }
+
+        .sosyalbutonlar .google-plus:hover {
+            background-color: #dd4b39;
+            transform: rotate(360deg);
+            border-radius: 50%;
+        }
+
+        .sosyalbutonlar .instagram:hover {
+            background-color: #bc2a8d;
+            transform: rotate(360deg);
+            border-radius: 50%;
+        }
+
+        .sosyalbutonlar .linkedin:hover {
+            background-color: #00aced;
+            transform: rotate(360deg);
+            border-radius: 50%;
+        }
+
+        .sosyalbutonlar .youtube:hover {
+            background-color: #bb0000;
+            transform: rotate(360deg);
+            border-radius: 50%;
+        }
 
         body {
             background-color: #F1F1F1;
@@ -558,18 +628,45 @@
             <div class="col-8">
             </div>
             <div class="row" style="margin-top:50px;">
-                <div class="col-2">
-                    <div class="my-info"  style="margin-top:50px; text-align: justify; padding: 20px;">
-                        <h4 class="card-title mb-4 text-center">Firma Bilgileri</h4>
-                        <p> Yetkili : Yılmaz Kaya <br>
-                            Telefon : 0536 862 80 31 <br>
-                            E-posta : <a href=mailto:"yilmaz@gezgoz.com">yilmaz@gezgoz.com</a><br>
-                            MersisNO : 123123921039032<br>
-                            Vergi No : 5330970026<br>
-                            Vergi Dairesi: Van Vergi Dairesi<br>
-                            Adres: Hafiziye Mah. Kazımbey 1. sokak no 12 iç kapı 2 İpekyolu Van<br>
-                        </p>
+                <div class="col-4">
+                    <div class="card shadow rounded-4" style="margin-top:50px;">
+                        <div class="row">
+                            <div class="col-6 my-info card-body p-4"
+                                style="margin-top:50px; text-align: justify; padding: 20px;">
+                                <h4 class="card-title mb-4 text-center">Firma Bilgileri</h4>
+                                <p> Yetkili : Yılmaz Kaya <br>
+                                    Telefon : 0536 862 80 31 <br>
+                                    E-posta : <a href=mailto:"yilmaz@gezgoz.com">yilmaz@gezgoz.com</a><br>
+                                    MersisNO : 123123921039032<br>
+                                    Vergi No : 5330970026<br>
+                                    Vergi Dairesi: Van Vergi Dairesi<br>
+                                    Adres: Hafiziye Mah. Kazımbey 1. sokak <br> no 12 iç kapı 2<br>İpekyolu / Van<br>
+                                    Posta Kodu:65100
+                                </p>
+                            </div>
+                            <div class="col-6 logo-basinkiti">
+                                <div class="row" style="padding-left: 30px;">
+                                <img src="/wwwroot/logo.png" alt="GezGöz Logo" style="height:70px;width: 300px; margin-top:50px;"/>
+                            </div><div class="row">
+                                <div class="sosyalbutonlar w-100">
+                                    <a href="http://twitter.com/gezgozofficial" target="_blank"
+                                        class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="http://instagram.com/gezgoz_official" target="_blank"
+                                        class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/poyraz-alkan/" target="_blank"
+                                        class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="http://youtube.com/@gezgözofficial" target="_blank"
+                                        class="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+
+                                </div>
+                            </div>
+                                <p class="w-100" style="margin-top:50px;">
+                                   <a style="text-decoration: none; color: #000000; font-weight: bolder; cursor: pointer;" href="/wwwroot/gezgoz-basin-ve-marka.zip" download="">Basın Kitini İndir</a> 
+                                </p>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
                 <div class="col-4">
                     <div class="card shadow rounded-4" style="margin-top:50px;">
@@ -593,7 +690,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-4">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d390.3205058062933!2d43.38644780032539!3d38.49770036488401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1749665974163!5m2!1str!2str"
                         width="800" height="425" style="border:0; margin-top:50px;" allowfullscreen="" loading="lazy"
@@ -607,9 +704,9 @@
         <div class="col-8 container-fluid">
             <div class="d-flex align-items-center">
                 <div class="d-flex justify-content-between w-100">
+                    <a class="col-2" target="_blank" href="/wwwroot/Veri-Kullanim-Politikasi.pdf">Veri Kullanım Politikası</a>
                     <a class="col-2" target="_blank" href="/wwwroot/cerez-politikasi.pdf">Çerez Politikası</a>
-                    <a class="col-2" target="_blank" href="/wwwroot/GEZGOZ-Gizlilik-Politikasi.pdf">Gizlilik
-                        Politikası</a>
+                    <a class="col-2" target="_blank" href="/wwwroot/GEZGOZ-Gizlilik-Politikasi.pdf">Gizlilik Politikası</a>
                     <a class="col-2" target="_blank" href="/wwwroot/Kullanici-Sozlesmesi.pdf">Kullanıcı Sözleşmesi</a>
                     <a class="col-2" target="_blank" href="/wwwroot/KVKK-Onay-Metni.pdf">KVKK Onay Metni</a>
                     <a class="col-2" target="_blank" href="/wwwroot/kvkk-aydinlatma-metni.pdf">KVKK Aydınlatma Metni</a>
