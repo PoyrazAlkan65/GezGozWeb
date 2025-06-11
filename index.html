@@ -41,11 +41,20 @@
             font-weight: 600;
             font-size: 20px;
         }
+
+        .footer-custom a {
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
         .Poweredby {
             font-size: 14px;
             background-color: #ff7043;
             color: white;
         }
+
         .Poweredby a {
             text-decoration: none;
             color: white;
@@ -53,6 +62,7 @@
             cursor: pointer;
 
         }
+
         /* Hero Section */
         .text-orange {
             color: #ff7043;
@@ -269,25 +279,32 @@
             letter-spacing: 00%;
 
         }
-        .references-bg{
-            background-color:  #ff7043;
-            display:flex; 
+
+        .references-bg {
+            background-color: #ff7043;
+            display: flex;
             flex-direction: row;
             justify-content: space-between;
             padding-left: 15%;
             padding-right: 15%;
         }
-        .references-bg>img{
+
+        .references-bg>img {
             width: 300px;
             height: 128px;
             margin-left: 40px;
             object-fit: fill;
         }
+
+        .qr-share>img {
+            height: 150px;
+        }
+
         body {
             background-color: #F1F1F1;
             /* Açık gri bir arka plan rengi */
+            overflow-x: hidden;
         }
-        
     </style>
 </head>
 
@@ -296,21 +313,26 @@
     <!-- Header Section -->
     <div class="container-fluid p-5">
         <div class="row" style="height:150px p-5">
-            <div class="col-4">
+            <div class="col-2">
                 <img src="/wwwroot/logo.png" alt="GezGöz Logo" style="height:70px">
                 <span class="text-danger fw-bold"></span>
             </div>
 
-            <div class="col-4 d-flex align-items-center">
+            <div class="col-8 d-flex align-items-center">
                 <div class="d-flex justify-content-between w-100">
                     <a class="nav-link navbar-link-custom text-center w-100 header-font-size"
                         href="#about">Hakkımızda</a>
                     <a class="nav-link navbar-link-custom text-center w-100 header-font-size" href="#support">Destek</a>
                     <a class="nav-link navbar-link-custom text-center w-100 header-font-size"
-                        href="#references">Referanslar ve İş Birlikleri</a>
+                        href="#references">Referanslar</a>
+                    <a class="nav-link navbar-link-custom text-center w-100 header-font-size" href="#references">Android
+                        için indir</a>
+                    <a class="nav-link navbar-link-custom text-center w-100 header-font-size" href="#references">IOS
+                        için indir</a>
                 </div>
             </div>
-            <div class="col-4 d-flex align-items-center">
+            <div class="col-2 d-flex align-items-center qr-share">
+                <img src="wwwroot/qr-removebg-preview.png">
             </div>
         </div>
     </div>
@@ -485,19 +507,19 @@
     <section id="references" class="references-section-custom text-center" style="background-color: #ffffff;">
         <div class="row" style="margin-top:100px;">
             <div class="col-4" style="border-bottom: 4px solid rgb(0, 0, 0);">
-                <h2 class="section-title-custom" style="text-align:right;">İŞ BİRLİKLERİ VE REFERANSLAR</h2>
+                <h2 class="section-title-custom" style="text-align:right;">REFERANSLAR</h2>
             </div>
             <div class="col-8"></div>
 
 
             <div class="row" style="margin-top:100px;">
-                
+
                 <div class="col-12 about-text text-center references-bg">
-                    <img src="/wwwroot/teknoBossLogo.png"/>
-                    <img src="/wwwroot/ACH.png"/>
-                    <img src="/wwwroot/vio-simge-logo.png"/>
-                    
-                    
+                    <img src="/wwwroot/teknoBossLogo.png" />
+                    <img src="/wwwroot/ACH.png" />
+                    <img src="/wwwroot/vio-simge-logo.png" />
+
+
                 </div>
             </div>
         </div>
@@ -517,25 +539,63 @@
             <div class="row" style="margin-top:100px;">
                 <div class="col-2"></div>
                 <div class="col-8 about-text text-center">
-                    <p> Gezgoz olarak sizlere en iyi hizmeti sunmak için buradayız. 
-                        Her türlü soru, görüş veya destek talebiniz için bizimle iletişime 
-                        geçebilirsiniz. Tüm destek başvurularınızı en kısa sürede yanıtlamaya özen gösteriyoruz. 
-                        Bize ulaşmak için <a href=mailto:"info@gezgoz.com">info@gezgoz.com</a> adresine e-posta gönderebilirsiniz.
+                    <p> Gezgoz olarak sizlere en iyi hizmeti sunmak için buradayız.
+                        Her türlü soru, görüş veya destek talebiniz için bizimle iletişime
+                        geçebilirsiniz. Tüm destek başvurularınızı en kısa sürede yanıtlamaya özen gösteriyoruz.
+                        Bize ulaşmak için <a href=mailto:"info@gezgoz.com">info@gezgoz.com</a> adresine e-posta
+                        gönderebilirsiniz.
                     </p>
                 </div>
             </div>
 
     </section>
+    <section id="communication" class="support-section-custom text-center" style="background-color: #ffffff;">
+        <div class="row" style="margin-top:100px;">
 
+            <div class="col-2" style="border-bottom: 4px solid rgb(82, 78, 78);">
+                <h2 class="section-title-custom" style="text-align:right; margin-right: 20%;">İletişim</h2>
+            </div>
+            <div class="col-8">
+            </div>
+            <div class="row" style="margin-top:50px;">
+                <div class="col-2"></div>
+                <div class="col-4">  <div class="card shadow rounded-4"  style="margin-top:50px;" >
+                    <div class="card-body p-4">
+                        <h4 class="card-title mb-4 text-center">İletişim Formu</h4>
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-posta adresiniz</label>
+                                <input type="email" class="form-control" id="email" placeholder="ornek@domain.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Mesajınız</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Mesajınızı buraya yazınız..." required></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary btn-lg rounded-pill">Gönder</button>
+                            </div>
+                        </form>
+                    </div>
+                </div></div>
+                <div class="col-6" >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d390.3205058062933!2d43.38644780032539!3d38.49770036488401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1749665974163!5m2!1str!2str"
+                     width="800" height="425" style="border:0; margin-top:50px;" 
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+          
+    </section>
     <!-- Footer -->
     <footer class="footer-custom text-center">
-        <div class="col-6 container-fluid">
+        <div class="col-8 container-fluid">
             <div class="d-flex align-items-center">
                 <div class="d-flex justify-content-between w-100">
-                    <a class="col-2 nav-link" href="#communication">iletişim</a>
-                    <a class="col-2  nav-link" href="#conditions">koşullar</a>
-                    <a class="col-2  nav-link" href="#secret">gizlilik</a>
-                    <a class="col-4  nav-link" href="#kvkk">KVKK Aydınlatma Metni</a>
+                    <a class="col-2" target="_blank" href="/wwwroot/cerez-politikasi.pdf">Çerez Politikası</a>
+                    <a class="col-2" target="_blank" href="/wwwroot/GEZGOZ-Gizlilik-Politikasi.pdf">Gizlilik
+                        Politikası</a>
+                    <a class="col-2" target="_blank" href="/wwwroot/Kullanici-Sozlesmesi.pdf">Kullanıcı Sözleşmesi</a>
+                    <a class="col-2" target="_blank" href="/wwwroot/KVKK-Onay-Metni.pdf">KVKK Onay Metni</a>
+                    <a class="col-2" target="_blank" href="/wwwroot/kvkk-aydinlatma-metni.pdf">KVKK Aydınlatma Metni</a>
                 </div>
 
 
