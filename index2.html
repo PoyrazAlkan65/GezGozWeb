@@ -35,24 +35,10 @@
         }
 
         .footer-custom {
-            background-color: #777777;
-            color: #000000;
-            font-family: Inter;
-            font-weight: 600;
-            font-size: 20px;
+            background-color: #e0e0e0;
+            padding: 20px 0;
         }
-        .Poweredby {
-            font-size: 14px;
-            background-color: #ff7043;
-            color: white;
-        }
-        .Poweredby a {
-            text-decoration: none;
-            color: white;
-            font-weight: bolder;
-            cursor: pointer;
 
-        }
         /* Hero Section */
         .text-orange {
             color: #ff7043;
@@ -218,14 +204,12 @@
             line-height: 100%;
             letter-spacing: 0%;
             color: #666666;
-
-
         }
 
         .hero-text {
             font-family: Inter;
             font-weight: 400;
-            font-size: 38px;
+            font-size: 50px;
             line-height: 100%;
             letter-spacing: 0%;
             text-align: right;
@@ -249,13 +233,10 @@
             left: 1080px;
 
         }
-
-
-
         .section-title-custom {
             font-family: Inter;
             font-weight: 600;
-            font-size: 50px;
+            font-size: 35px;
             line-height: 100%;
             letter-spacing: 0%;
 
@@ -264,30 +245,11 @@
         .about-text {
             font-family: Inter;
             font-weight: 200;
-            font-size: 30px;
+            font-size: 40px;
             line-height: 100%;
             letter-spacing: 00%;
 
         }
-        .references-bg{
-            background-color:  #ff7043;
-            display:flex; 
-            flex-direction: row;
-            justify-content: space-between;
-            padding-left: 15%;
-            padding-right: 15%;
-        }
-        .references-bg>img{
-            width: 300px;
-            height: 128px;
-            margin-left: 40px;
-            object-fit: fill;
-        }
-        body {
-            background-color: #F1F1F1;
-            /* Açık gri bir arka plan rengi */
-        }
-        
     </style>
 </head>
 
@@ -365,12 +327,12 @@
                 <div class="col-2">
 
                 </div>
-                <div class="col-6">
+                <div class="col-5">
                     <img src="/wwwroot/mainPage-card.png" alt="Harita Özelliği" class="img-fluid">
                     <img src="/wwwroot/map-card.png" alt="Harita Özelliği" class="map-card img-fluid">
                 </div>
 
-                <div class="col-4 underline">
+                <div class="col-5 underline">
                     <p class="feature-description-custom" style="font-size:60px;text-align: left;">
                         Yerel ve lokasyon bazlı özelliklerle donatılmış uygulama sayesinde çevrendeki tüm fırsatları
                         kaçırmadan yakala.
@@ -460,18 +422,15 @@
 
     <!-- Download Section -->
     <section class="download-section-custom text-center">
-        <div class="container-fluid col-9">
+        <div class="container">
             <div class="row">
-                <div class="col-md-5 mb-4">
+                <div class="col-md-6 mb-4">
                     <div class="download-card-custom">
                         <a href="#" class="btn btn-ios-custom btn-lg">iOS için İndir</a>
                         <img src="/wwwroot/iphone.png" alt="iOS İndir" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-2">
-                </div>
-
-                <div class="col-md-5 mb-4">
+                <div class="col-md-6 mb-4">
                     <div class="download-card-custom">
                         <a href="#" class="btn btn-android-custom btn-lg">Android için İndir</a>
                         <img src="/wwwroot/android.png" alt="Android İndir" class="img-fluid">
@@ -482,68 +441,35 @@
     </section>
 
     <!-- References Section -->
-    <section id="references" class="references-section-custom text-center" style="background-color: #ffffff;">
-        <div class="row" style="margin-top:100px;">
-            <div class="col-4" style="border-bottom: 4px solid rgb(0, 0, 0);">
-                <h2 class="section-title-custom" style="text-align:right;">İŞ BİRLİKLERİ VE REFERANSLAR</h2>
-            </div>
-            <div class="col-8"></div>
-
-
-            <div class="row" style="margin-top:100px;">
-                
-                <div class="col-12 about-text text-center references-bg">
-                    <img src="/wwwroot/teknoBossLogo.png"/>
-                    <img src="/wwwroot/ACH.png"/>
-                    <img src="/wwwroot/vio-simge-logo.png"/>
-                    
-                    
-                </div>
-            </div>
+    <section id="references" class="references-section-custom text-center">
+        <div class="container">
+            <h2 class="section-title-custom">İş Birlikleri ve Referanslar</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                lacus vel</p>
         </div>
     </section>
 
     <!-- Support Section -->
-    <section id="support" class="support-section-custom text-center" style="background-color: #B2B2B2;">
-        <div class="row" style="margin-top:100px;">
-
-            <div class="col-2" style="border-bottom: 4px solid rgb(82, 78, 78);">
-                <h2 class="section-title-custom" style="text-align:right; margin-right: 20%;">DESTEK</h2>
-            </div>
-            <div class="col-8"></div>
-
-
-
-            <div class="row" style="margin-top:100px;">
-                <div class="col-2"></div>
-                <div class="col-8 about-text text-center">
-                    <p> Gezgoz olarak sizlere en iyi hizmeti sunmak için buradayız. 
-                        Her türlü soru, görüş veya destek talebiniz için bizimle iletişime 
-                        geçebilirsiniz. Tüm destek başvurularınızı en kısa sürede yanıtlamaya özen gösteriyoruz. 
-                        Bize ulaşmak için <a href=mailto:"info@gezgoz.com">info@gezgoz.com</a> adresine e-posta gönderebilirsiniz.
-                    </p>
-                </div>
-            </div>
-
+    <section id="support" class="support-section-custom text-center">
+        <div class="container">
+            <h2 class="section-title-custom">Destek</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                lacus vel</p>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer-custom text-center">
-        <div class="col-6 container-fluid">
-            <div class="d-flex align-items-center">
-                <div class="d-flex justify-content-between w-100">
-                    <a class="col-2 nav-link" href="#communication">iletişim</a>
-                    <a class="col-2  nav-link" href="#conditions">koşullar</a>
-                    <a class="col-2  nav-link" href="#secret">gizlilik</a>
-                    <a class="col-4  nav-link" href="#kvkk">KVKK Aydınlatma Metni</a>
-                </div>
-
-
-            </div>
+        <div class="container">
+            <p>İletişim | Gizlilik | KVKK Aydınlatma Metni</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                lacus vel</p>
+            <p>Copyright © 2024 - www.gezgoz.com Powered by: <a>Academy Code Hub linki koyulacak</a></p>
+        </div>
     </footer>
-    <div class="col-12 container-fluid text-center Poweredby">
-        <p>Copyright © 2024 - www.gezgoz.com Powered by: <a href="https://academycodehub.com">Academy Code Hub</a></p>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
