@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GezGöz - Onepage Anasayfa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Genel Stiller */
+        .navbar-custom {
+            background-color: #f8f9fa;
+        }
+
+
+
+        .navbar-brand-custom {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-brand-custom img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .navbar-link-custom {
+            color: #6c757d;
+            font-weight: 500;
+            margin-right: 20px;
+        }
+
+        .navbar-link-custom:hover {
+            color: #ff7043;
+        }
+
+        .footer-custom {
+            background-color: #e0e0e0;
+            padding: 20px 0;
+        }
+
+        /* Hero Section */
+        .text-orange {
+            color: #ff7043;
+        }
+
+        .hero-section {
+            background-color: #f5f5f5;
+            padding: 80px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-content-custom {
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+
+        .hero-images img {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .btn-download-custom {
+            background-color: #ff7043;
+            color: white;
+            border-radius: 20px;
+            font-size: 2.2rem;
+            padding: 10px 30px;
+
+        }
+
+        .btn-download-custom:hover {
+            background-color: #ff5722;
+        }
+
+        .feature-content-custom {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .feature-item-custom {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Feature Section */
+        .feature-section-custom {
+            background-color: #d9d9d9;
+            padding: 50px 0;
+        }
+
+        .feature-description-custom {
+            font-size: 2.6rem;
+            color: #5c5c5c;
+            margin-top: 20px;
+        }
+
+        /* Download Section */
+        .download-section-custom {
+            background-color: #f5f5f5;
+            padding: 50px 0;
+        }
+
+        .download-card-custom {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .btn-ios-custom {
+            background-color: #ff7043;
+            color: white;
+            border-radius: 20px;
+            margin-top: 10px;
+            float: right;
+            font-size: xx-large;
+        }
+
+        .btn-android-custom {
+            background-color: #757575;
+            color: white;
+            border-radius: 20px;
+            margin-top: 10px;
+            float: right;
+            font-size: xx-large;
+        }
+
+        /* About, References and Support Sections */
+        .about-section-custom,
+        .references-section-custom,
+        .support-section-custom {
+            padding: 50px 0;
+        }
+
+        .about-section-custom {
+            background-color: #ff7043;
+            color: white;
+
+        }
+
+        .support-section-custom {
+            background-color: #c4c4c4;
+        }
+
+        .top-header {
+            width: 299px;
+            height: 85px;
+            top: 330px;
+            left: 42px;
+            gap: 0px;
+            opacity: 0px;
+            color: #ff7043;
+            border-bottom: 1px solid black;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .underline {
+
+
+            border-bottom: 4px solid gray;
+            margin-bottom: 55px;
+        }
+
+        .container-width {
+            width: 75%;
+        }
+
+        .concert-card {
+            position: absolute;
+            top: 200px;
+            z-index: 1300;
+            height: 1000px;
+        }
+
+        .slider-card-first {
+            text-align: right;
+            padding-top: 100px;
+            height: 700px;
+        }
+
+        .product-card {
+            width: 370px;
+        }
+
+        .hero-head {
+            font-family: Inter;
+            font-weight: 600;
+            font-size: 80px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #666666;
+        }
+
+        .hero-text {
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: right;
+            color: #666666;
+
+        }
+
+        .header-font-size {
+            font-family: Inter;
+            font-weight: 800;
+            font-size: 28px;
+            line-height: 100%;
+            letter-spacing: 0%;
+
+        }
+
+        .map-card {
+            position: absolute;
+            z-index: 1000;
+            top: 1150px;
+            left: 1080px;
+
+        }
+        .section-title-custom {
+            font-family: Inter;
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 100%;
+            letter-spacing: 0%;
+
+        }
+
+        .about-text {
+            font-family: Inter;
+            font-weight: 200;
+            font-size: 40px;
+            line-height: 100%;
+            letter-spacing: 00%;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <div class="container-fluid p-5">
+        <div class="row" style="height:150px p-5">
+            <div class="col-4">
+                <img src="/wwwroot/logo.png" alt="GezGöz Logo" style="height:70px">
+                <span class="text-danger fw-bold"></span>
+            </div>
+
+            <div class="col-4 d-flex align-items-center">
+                <div class="d-flex justify-content-between w-100">
+                    <a class="nav-link navbar-link-custom text-center w-100 header-font-size"
+                        href="#about">Hakkımızda</a>
+                    <a class="nav-link navbar-link-custom text-center w-100 header-font-size" href="#support">Destek</a>
+                    <a class="nav-link navbar-link-custom text-center w-100 header-font-size"
+                        href="#references">Referanslar ve İş Birlikleri</a>
+                </div>
+            </div>
+            <div class="col-4 d-flex align-items-center">
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+
+    <!-- İlk 4 "eren" - Üst Yarı -->
+    <div class="row  d-flex ">
+        <div class="col-6">
+            <div class="col-12" style="height:150px; margin-top: 230px;">
+                <div class="underline">
+                    <h1 class="text-orange fw-bold text-left " style="font-size:70px; padding-left: 3rem;">GEZGÖZ
+                    </h1>
+                </div>
+            </div>
+            <div class="col-12">
+                <p class=" text-right hero-head">Gez, Gör, Fırsatları Kovala.</p>
+            </div>
+            <div class="row" style=" margin-top:5%; height:200px">
+                <div class="col-8">
+
+                </div>
+                <div class="col-4">
+                    <p class="text-right hero-text">Sana yakın etkinliklerden, kampanyalardan ve fırsatlardan
+                        haberdar ol.</p>
+                </div>
+            </div>
+            <div class="col-12" style="height:110px"><a href="#" class="btn btn-download-custom mt-3"
+                    style="float:right;">Hemen
+                    İndir</a></div>
+        </div>
+
+
+        <div class="col-6">
+            <div class="row">
+                <div class="col-4 slider-card-first">
+
+                    <img class="product-card" src="/wwwroot/product-card.png" alt="Uygulama Özelliği 1">
+                    <img class="sale-card" src="/wwwroot/sale-card.png" alt="Uygulama Özelliği 3">
+
+                </div>
+                <div class="col-6"><img class="concert-card" src="/wwwroot/concert-card.png" alt="Uygulama Özelliği 2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature Section -->
+    <section class="feature-section-custom" style="height:1000px;">
+        <div>
+            <div class="row align-items-center">
+                <div class="col-2">
+
+                </div>
+                <div class="col-5">
+                    <img src="/wwwroot/mainPage-card.png" alt="Harita Özelliği" class="img-fluid">
+                    <img src="/wwwroot/map-card.png" alt="Harita Özelliği" class="map-card img-fluid">
+                </div>
+
+                <div class="col-5 underline">
+                    <p class="feature-description-custom" style="font-size:60px;text-align: left;">
+                        Yerel ve lokasyon bazlı özelliklerle donatılmış uygulama sayesinde çevrendeki tüm fırsatları
+                        kaçırmadan yakala.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section-custom " style="height:1000px;">
+
+
+        <div class="row" style="margin-top:100px;">
+            <div class="col-8"></div>
+            <div class="col-4" style="border-bottom: 4px solid white;">
+                <h2 class="section-title-custom" style="text-align:left;">HAKKIMIZDA</h2>
+            </div>
+
+        </div>
+        <div class="row" style="margin-top:100px;">
+            <div class="col-2"></div>
+            <div class="col-8 about-text text-center">
+                <p>"GEZGÖZ: Şehrin Nabzını Tut, Anı Yakala!
+                    Şehrin sokakları, bin bir renkli etkinlikle, kaçırılmayacak fırsatlarla dolu! Peki, sen neredesin?
+                    Gezgöz ile artık hiçbir şey gözünden kaçmayacak! Konum Bazlı Keşif ile bulunduğun yere en yakın
+                    etkinlikler, kampanyalar ve mekanlar anında cebinde! Harita ve Konum Desteği ile şehrin her köşesini
+                    avucunun içi gibi bil, istediğin yere kolayca ulaş! Canlı ve Güncel Bilgi ile etkinlik takvimleri,
+                    kampanyalar ve mekan detayları her zaman en taze haliyle! Heyecan Verici Deneyim ile şehrin gizli
+                    kalmış
+                    cevherlerini keşfet, yeni anılar biriktir!
+                    Gezgöz, sadece bir uygulama değil, şehrin ritmini yakalaman için bir anahtar! İster bir konser
+                    arıyor
+                    ol, ister lezzetli bir indirim, isterse de sadece yeni bir mekan keşfetmek iste, Gezgöz yanında!
+                    Vizyonumuz şehir yaşamını senin için daha keyifli, daha sosyal ve daha unutulmaz kılmak! Misyonumuz
+                    şehrin tüm renklerini, tüm heyecanını seninle buluşturmak!
+                    Gezgöz ile şehrin en popüler etkinliklerine katıl, en cazip kampanyalardan yararlan, yeni lezzetler
+                    keşfet, unutulmaz anlar yaşa ve yerel esnafı destekle. Şimdi İndir, Şehrin Tadını Çıkar! Gezgöz ile
+                    şehrin enerjisini hisset, her anı dolu dolu yaşa!
+                    GEZGÖZ, etkinlikleri ve kampanyaları keşfetmenin ve deneyimlemenin yeni yolu! Mobil uygulamamız
+                    sayesinde şehrinizdeki ve çevrenizdeki en popüler etkinliklerden haberdar olabilir, kampanyalardan
+                    yararlanabilirsiniz. GEZGÖZ ile hiçbir etkinliği kaçırmayın!
+                    Şehrinizde neler olup bittiğini öğrenmekte zorlanıyor musunuz? Etkinlikleri, kampanyaları ve ilgi
+                    çekici
+                    mekanları bulmak için saatlerce araştırma yapmaktan sıkıldınız mı? GEZGÖZ, tam da bu sorunlara çözüm
+                    sunmak için doğrulanmış işletme hesaplarından oluşan bir mobil uygulama olarak geliştirildi. Konum
+                    bazlı
+                    arama ve harita desteği ile aradığınız her şeyi kolayca bulun. GEZGÖZ ile şehrinizin tüm dinamikleri
+                    artık parmaklarınızın ucunda. Seyahat veya ihtiyaç duyduğunuz anda konum değişikliği ile uzağı yakın
+                    yapabilir, etkinlik ve kampanyalardan faydalanmaya başlayabilirsiniz."
+                </p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section class="feature-section-custom text-center">
+
+
+        <div class="row" style="margin-top:100px;">
+            <div class="col-4" style="border-bottom: 4px solid rgb(82, 78, 78);">
+                <h2 class="section-title-custom" style="text-align:right;">VİZYONUMUZ</h2>
+            </div>
+            <div class="col-8"></div>
+
+
+        </div>
+        <div class="row" style="margin-top:100px;">
+            <div class="col-2"></div>
+            <div class="col-8 about-text text-center">
+                <p> GEZGÖZ' ü, her yaştan ve ilgi alanından insanın şehirlerindeki etkinlikleri, kampanyaları ve
+                    mekanları kolayca keşfedebileceği, vazgeçilmez bir mobil rehber haline getirmek; kullanıcılarımıza
+                    yaşadıkları şehirdeki tüm fırsatları sunarak şehir yaşamlarını daha keyifli, zengin ve sosyal hale
+                    getirmek; yerel işletmelerin ve etkinliklerin daha geniş kitlelere ulaşmasına yardımcı olarak şehir
+                    ekonomisine katkıda bulunmak; konum tabanlı teknolojileri, harita entegrasyonlarını ve kullanıcı
+                    dostu ara yüzü bir araya getirerek şehir keşfini yepyeni bir boyuta taşımak; ve GEZGÖZ 'ü sadece
+                    Türkiye'de değil, dünya genelinde de şehir keşfi için tercih edilen bir platform haline getirmek
+                    vizyonumuzdur. Bu vizyonu gerçekleştirirken kullanıcı odaklılık, güvenilirlik, yenilikçilik,
+                    erişilebilirlik ve sosyal sorumluluk değerlerimizi temel alıyoruz.
+                    Bu vizyon ve değerler, GEZGÖZ 'ün gelecekteki gelişimine yön verecek ve kullanıcılarımıza daha iyi
+                    bir deneyim sunmamıza yardımcı olacaktır.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download-section-custom text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="download-card-custom">
+                        <a href="#" class="btn btn-ios-custom btn-lg">iOS için İndir</a>
+                        <img src="/wwwroot/iphone.png" alt="iOS İndir" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="download-card-custom">
+                        <a href="#" class="btn btn-android-custom btn-lg">Android için İndir</a>
+                        <img src="/wwwroot/android.png" alt="Android İndir" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- References Section -->
+    <section id="references" class="references-section-custom text-center">
+        <div class="container">
+            <h2 class="section-title-custom">İş Birlikleri ve Referanslar</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                lacus vel</p>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support" class="support-section-custom text-center">
+        <div class="container">
+            <h2 class="section-title-custom">Destek</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                lacus vel</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-custom text-center">
+        <div class="container">
+            <p>İletişim | Gizlilik | KVKK Aydınlatma Metni</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                lacus vel</p>
+            <p>Copyright © 2024 - www.gezgoz.com Powered by: <a>Academy Code Hub linki koyulacak</a></p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
