@@ -14,107 +14,88 @@
 
     <!-- Header Section -->
     <div class="container-fluid p-5">
-        <div class="row header-row-height">
+        <div class="row" style="height:150px p-5">
+            <div class="col-lx-2 col-lg-2 col-md-2 col-sm-2 col-2">
+                <img src="/wwwroot/logo.png" alt="GezGöz Logo" style="height:70px">
+                <span class="text-danger fw-bold"></span>
+            </div>
 
-            <!-- Bootstrap Navbar Collapse -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <!-- Logo -->
-                    <a class="navbar-brand" href="#">
-                        <img src="/wwwroot/logo.png" alt="GezGöz Logo" class="logo-header" />
-                    </a>
-
-                    <!-- Hamburger Button -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <!-- Menu Links -->
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link navbar-link-custom header-font-size" href="#about">Hakkımızda</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link navbar-link-custom header-font-size" href="#support">Destek</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link navbar-link-custom header-font-size"
-                                    href="#references">Referanslar</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link navbar-link-custom header-font-size" href="#references">Android için
-                                    indir</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link navbar-link-custom header-font-size" href="#references">IOS için
-                                    indir</a>
-                            </li>
-                        </ul>
-
-                        <!-- QR kodu büyük ekranda göstermek için -->
-                        <div class="d-none d-lg-block ms-4">
-                            <img src="wwwroot/qr-removebg-preview.png" class="qr-img" />
-                        </div>
-                    </div>
+            <div class="col-lx-8 col-lg-8 col-md-8 col-sm-8 col-8 d-flex align-items-center">
+                <div class="d-flex justify-content-between w-100">
+                    <a class="nav-link navbar-link-custom text-center w-100 header-font-size"
+                        href="#about">Hakkımızda</a>
+                    <a class="nav-link navbar-link-custom text-center w-100 header-font-size" href="#support">Destek</a>
+                    <a class="nav-link navbar-link-custom text-center w-100 header-font-size"
+                        href="#references">Referanslar</a>
+                    <a class="nav-link navbar-link-custom text-center w-100 header-font-size" href="#references">Android
+                        için indir</a>
+                    <a class="nav-link navbar-link-custom text-center w-100 header-font-size" href="#references">IOS
+                        için indir</a>
                 </div>
-            </nav>
+            </div>
+            <div class="col-lx-2 col-lg-2 col-md-2 col-sm-2 col-2 d-flex align-items-center qr-share">
+                <img src="wwwroot/qr-removebg-preview.png">
+            </div>
         </div>
     </div>
 
     <!-- Hero Section -->
-    <div class="row d-flex">
-        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-            <div class="col-12 hero-title-container">
+
+    <!-- İlk 4 "eren" - Üst Yarı -->
+    <div class="row  d-flex ">
+        <div class="col-6">
+            <div class="col-12" style="height:150px; margin-top: 230px;">
                 <div class="underline">
-                    <h1 class="text-orange fw-bold text-left" style="font-size:70px; padding-left:3rem;">GEZGÖZ</h1>
+                    <h1 class="text-orange fw-bold text-left " style="font-size:70px; padding-left: 3rem;">GEZGÖZ
+                    </h1>
                 </div>
             </div>
             <div class="col-12">
-                <p class="text-right hero-head">Gez, Gör, Fırsatları Kovala.</p>
+                <p class=" text-right hero-head">Gez, Gör, Fırsatları Kovala.</p>
             </div>
-            <div class="row margin-top-50 hero-text-container">
-                <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
+            <div class="row" style=" margin-top:5%; height:200px">
+                <div class="col-8">
+
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                    <p class="text-right hero-text">
-                        Sana yakın etkinliklerden, kampanyalardan ve fırsatlardan haberdar ol.
-                    </p>
+                <div class="col-4">
+                    <p class="text-right hero-text">Sana yakın etkinliklerden, kampanyalardan ve fırsatlardan
+                        haberdar ol.</p>
                 </div>
             </div>
-            <div class="col-12 hero-download-btn">
-                <a href="#" class="btn btn-download-custom mt-3 float-right">Hemen İndir</a>
-            </div>
+            <div class="col-12" style="height:110px"><a href="#" class="btn btn-download-custom mt-3"
+                    style="float:right;">Hemen
+                    İndir</a></div>
         </div>
 
-        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+
+        <div class="col-6">
             <div class="row">
-                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 slider-card-first">
-                    <img class="product-card" src="/wwwroot/product-card.png" alt="Uygulama Özelliği 1" />
-                    <img class="sale-card" src="/wwwroot/sale-card.png" alt="Uygulama Özelliği 3" />
+                <div class="col-4 slider-card-first">
+
+                    <img class="product-card" src="/wwwroot/product-card.png" alt="Uygulama Özelliği 1">
+                    <img class="sale-card" src="/wwwroot/sale-card.png" alt="Uygulama Özelliği 3">
+
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                    <img class="concert-card" src="/wwwroot/concert-card.png" alt="Uygulama Özelliği 2" />
+                <div class="col-6"><img class="concert-card" src="/wwwroot/concert-card.png" alt="Uygulama Özelliği 2">
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Feature Section -->
-    <section class="feature-section-custom">
+    <section class="feature-section-custom" style="height:1000px;">
         <div>
             <div class="row align-items-center">
-                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
+                <div class="col-2">
 
-                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                    <img src="/wwwroot/mainPage-card.png" alt="Harita Özelliği" class="img-fluid" />
-                    <img src="/wwwroot/map-card.png" alt="Harita Özelliği" class="map-card img-fluid" />
+                </div>
+                <div class="col-6">
+                    <img src="/wwwroot/mainPage-card.png" alt="Harita Özelliği" class="img-fluid">
+                    <img src="/wwwroot/map-card.png" alt="Harita Özelliği" class="map-card img-fluid">
                 </div>
 
-                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 section-title-border-dark">
-                    <p class="feature-description-custom">
+                <div class="col-4 underline">
+                    <p class="feature-description-custom" style="font-size:60px;text-align: left;">
                         Yerel ve lokasyon bazlı özelliklerle donatılmış uygulama sayesinde çevrendeki tüm fırsatları
                         kaçırmadan yakala.
                     </p>
@@ -122,18 +103,21 @@
             </div>
         </div>
     </section>
-    <!-- About Section -->
-    <section id="about" class="about-section-custom">
-        <div class="row margin-top-100">
-            <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8"></div>
-            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 section-title-border-white">
-                <h2 class="section-title-custom text-left">HAKKIMIZDA</h2>
-            </div>
-        </div>
 
-        <div class="row margin-top-100">
-            <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
-            <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 about-text text-center">
+    <!-- About Section -->
+    <section id="about" class="about-section-custom " style="height:1000px;">
+
+
+        <div class="row" style="margin-top:100px;">
+            <div class="col-8"></div>
+            <div class="col-4" style="border-bottom: 4px solid white;">
+                <h2 class="section-title-custom" style="text-align:left;">HAKKIMIZDA</h2>
+            </div>
+
+        </div>
+        <div class="row" style="margin-top:100px;">
+            <div class="col-2"></div>
+            <div class="col-8 about-text text-center">
                 <p>"GEZGÖZ: Şehrin Nabzını Tut, Anı Yakala!
                     Şehrin sokakları, bin bir renkli etkinlikle, kaçırılmayacak fırsatlarla dolu! Peki, sen neredesin?
                     Gezgöz ile artık hiçbir şey gözünden kaçmayacak! Konum Bazlı Keşif ile bulunduğun yere en yakın
@@ -164,20 +148,24 @@
                 </p>
             </div>
         </div>
+        </div>
     </section>
 
     <!-- Vision Section -->
     <section class="feature-section-custom text-center">
-        <div class="row margin-top-100">
-            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 section-title-border-dark">
-                <h2 class="section-title-custom text-right">VİZYONUMUZ</h2>
-            </div>
-            <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8"></div>
-        </div>
 
-        <div class="row margin-top-100">
-            <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
-            <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 about-text text-center">
+
+        <div class="row" style="margin-top:100px;">
+            <div class="col-4" style="border-bottom: 4px solid rgb(82, 78, 78);">
+                <h2 class="section-title-custom" style="text-align:right;">VİZYONUMUZ</h2>
+            </div>
+            <div class="col-8"></div>
+
+
+        </div>
+        <div class="row" style="margin-top:100px;">
+            <div class="col-2"></div>
+            <div class="col-8 about-text text-center">
                 <p> GEZGÖZ' ü, her yaştan ve ilgi alanından insanın şehirlerindeki etkinlikleri, kampanyaları ve
                     mekanları kolayca keşfedebileceği, vazgeçilmez bir mobil rehber haline getirmek; kullanıcılarımıza
                     yaşadıkları şehirdeki tüm fırsatları sunarak şehir yaşamlarını daha keyifli, zengin ve sosyal hale
@@ -196,19 +184,21 @@
 
     <!-- Download Section -->
     <section class="download-section-custom text-center">
-        <div class="container-fluid col-sm-9 col-md-9 col-lg-9 col-xl-9">
+        <div class="container-fluid col-9">
             <div class="row">
-                <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5 mb-4">
+                <div class="col-md-5 mb-4">
                     <div class="download-card-custom">
                         <a href="#" class="btn btn-ios-custom btn-lg">iOS için İndir</a>
-                        <img src="/wwwroot/iphone.png" alt="iOS İndir" class="img-fluid" />
+                        <img src="/wwwroot/iphone.png" alt="iOS İndir" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
-                <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5 mb-4">
+                <div class="col-2">
+                </div>
+
+                <div class="col-md-5 mb-4">
                     <div class="download-card-custom">
                         <a href="#" class="btn btn-android-custom btn-lg">Android için İndir</a>
-                        <img src="/wwwroot/android.png" alt="Android İndir" class="img-fluid" />
+                        <img src="/wwwroot/android.png" alt="Android İndir" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -216,57 +206,65 @@
     </section>
 
     <!-- References Section -->
-    <section id="references" class="references-section-custom text-center bg-white">
-        <div class="row margin-top-100">
-            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 section-title-border-dark">
-                <h2 class="section-title-custom text-right">REFERANSLAR</h2>
+    <section id="references" class="references-section-custom text-center" style="background-color: #ffffff;">
+        <div class="row" style="margin-top:100px;">
+            <div class="col-4" style="border-bottom: 4px solid rgb(0, 0, 0);">
+                <h2 class="section-title-custom" style="text-align:right;">REFERANSLAR</h2>
             </div>
-            <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8"></div>
+            <div class="col-8"></div>
 
-            <div class="row margin-top-100">
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 about-text text-center references-bg">
+
+            <div class="row" style="margin-top:100px;">
+
+                <div class="col-12 about-text text-center references-bg">
                     <img src="/wwwroot/teknoBossLogo.png" />
                     <img src="/wwwroot/ACH.png" />
                     <img src="/wwwroot/vio-simge-logo.png" />
+
+
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Support Section -->
-    <section id="support" class="support-section-custom text-center support-bg">
-        <div class="row margin-top-100">
-            <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 section-title-border-dark">
-                <h2 class="section-title-custom text-right margin-right-20">DESTEK</h2>
-            </div>
-            <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8"></div>
+    <section id="support" class="support-section-custom text-center" style="background-color: #B2B2B2;">
+        <div class="row" style="margin-top:100px;">
 
-            <div class="row margin-top-100">
-                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
-                <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 about-text text-center">
+            <div class="col-2" style="border-bottom: 4px solid rgb(82, 78, 78);">
+                <h2 class="section-title-custom" style="text-align:right; margin-right: 20%;">DESTEK</h2>
+            </div>
+            <div class="col-8"></div>
+
+
+
+            <div class="row" style="margin-top:100px;">
+                <div class="col-2"></div>
+                <div class="col-8 about-text text-center">
                     <p> Gezgoz olarak sizlere en iyi hizmeti sunmak için buradayız.
                         Her türlü soru, görüş veya destek talebiniz için bizimle iletişime
                         geçebilirsiniz. Tüm destek başvurularınızı en kısa sürede yanıtlamaya özen gösteriyoruz.
                         Bize ulaşmak için <a href=mailto:"info@gezgoz.com">info@gezgoz.com</a> adresine e-posta
-                        gönderebilirsiniz.</p>
+                        gönderebilirsiniz.
+                    </p>
                 </div>
             </div>
-        </div>
+
     </section>
-
-    <!-- Communication Section -->
-    <section id="communication" class="support-section-custom text-center bg-white">
+    <section id="communication" class="support-section-custom text-center" style="background-color: #ffffff;">
         <div class="row">
-            <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 section-title-border-dark">
-                <h2 class="section-title-custom text-right margin-right-20">İletişim</h2>
-            </div>
-            <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8"></div>
 
-            <div class="row margin-top-50">
-                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                    <div class="card shadow rounded-4 margin-top-50">
+            <div class="col-2" style="border-bottom: 4px solid rgb(82, 78, 78);">
+                <h2 class="section-title-custom" style="text-align:right; margin-right: 20%;">İletişim</h2>
+            </div>
+            <div class="col-8">
+            </div>
+            <div class="row" style="margin-top:50px;">
+                <div class="col-4">
+                    <div class="card shadow rounded-4" style="margin-top:50px;">
                         <div class="row">
-                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 my-info card-body p-4 text-justify">
+                            <div class="col-6 my-info card-body p-4"
+                                style="margin-top:50px; text-align: justify; padding: 20px;">
                                 <h4 class="card-title mb-4 text-center">Firma Bilgileri</h4>
                                 <p> Yetkili : Yılmaz Kaya <br>
                                     Telefon : 0536 862 80 31 <br>
@@ -278,32 +276,39 @@
                                     Posta Kodu:65100
                                 </p>
                             </div>
-                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 logo-basinkiti">
-                                <div class="row padding-left-30">
-                                    <img src="/wwwroot/logo.png" alt="GezGöz Logo" class="logo-large" />
+                            <div class="col-6 logo-basinkiti">
+                                <div class="row" style="padding-left: 30px;">
+                                <img src="/wwwroot/logo.png" alt="GezGöz Logo" style="height:70px;width: 300px; margin-top:50px;"/>
+                            </div><div class="row">
+                                <div class="sosyalbutonlar w-100">
+                                    <a href="http://twitter.com/gezgozofficial" target="_blank"
+                                        class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="http://instagram.com/gezgoz_official" target="_blank"
+                                        class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/poyraz-alkan/" target="_blank"
+                                        class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="http://youtube.com/@gezgözofficial" target="_blank"
+                                        class="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+
                                 </div>
-                                <div class="row">
-                                    <div class="sosyalbutonlar w-100">
-                                        <!-- sosyal linkler aynı -->
-                                    </div>
-                                </div>
-                                <p class="w-100 margin-top-50">
-                                    <a href="/wwwroot/gezgoz-basin-ve-marka.zip" download="">Basın Kitini İndir</a>
+                            </div>
+                                <p class="w-100" style="margin-top:50px;">
+                                   <a style="text-decoration: none; color: #000000; font-weight: bolder; cursor: pointer;" href="/wwwroot/gezgoz-basin-ve-marka.zip" download="">Basın Kitini İndir</a> 
                                 </p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                    <div class="card shadow rounded-4 margin-top-50">
+                </div>
+                <div class="col-4">
+                    <div class="card shadow rounded-4" style="margin-top:50px;">
                         <div class="card-body p-4">
                             <h4 class="card-title mb-4 text-center">İletişim Formu</h4>
                             <form>
                                 <div class="mb-3">
                                     <label for="email" class="form-label">E-posta adresiniz</label>
                                     <input type="email" class="form-control" id="email" placeholder="ornek@domain.com"
-                                        required />
+                                        required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="message" class="form-label">Mesajınız</label>
@@ -317,31 +322,31 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                    <iframe src="https://www.google.com/maps/embed?pb=..." class="map-iframe"></iframe>
+                <div class="col-4">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d390.3205058062933!2d43.38644780032539!3d38.49770036488401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1749665974163!5m2!1str!2str"
+                        width="800" height="425" style="border:0; margin-top:50px;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-        </div>
-    </section>
 
+    </section>
     <!-- Footer -->
     <footer class="footer-custom text-center">
-        <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 container-fluid">
+        <div class="col-8 container-fluid">
             <div class="d-flex align-items-center">
-                <div class="d-flex justify-content-between w-100 flex-wrap">
-                    <a class="col-2" target="_blank" href="/wwwroot/Veri-Kullanim-Politikasi.pdf">Veri Kullanım
-                        Politikası</a>
+                <div class="d-flex justify-content-between w-100">
+                    <a class="col-2" target="_blank" href="/wwwroot/Veri-Kullanim-Politikasi.pdf">Veri Kullanım Politikası</a>
                     <a class="col-2" target="_blank" href="/wwwroot/cerez-politikasi.pdf">Çerez Politikası</a>
-                    <a class="col-2" target="_blank" href="/wwwroot/GEZGOZ-Gizlilik-Politikasi.pdf">Gizlilik
-                        Politikası</a>
+                    <a class="col-2" target="_blank" href="/wwwroot/GEZGOZ-Gizlilik-Politikasi.pdf">Gizlilik Politikası</a>
                     <a class="col-2" target="_blank" href="/wwwroot/Kullanici-Sozlesmesi.pdf">Kullanıcı Sözleşmesi</a>
                     <a class="col-2" target="_blank" href="/wwwroot/KVKK-Onay-Metni.pdf">KVKK Onay Metni</a>
                     <a class="col-2" target="_blank" href="/wwwroot/kvkk-aydinlatma-metni.pdf">KVKK Aydınlatma Metni</a>
                 </div>
+
+
             </div>
     </footer>
-
     <div class="col-12 container-fluid text-center Poweredby">
         <p>Copyright © 2024 - www.gezgoz.com Powered by: <a href="https://academycodehub.com">Academy Code Hub</a></p>
     </div>
