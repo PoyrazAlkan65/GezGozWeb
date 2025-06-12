@@ -13,7 +13,7 @@
 <body>
 
     <!-- Header Section -->
-    <div class="container-fluid p-5">
+    <div class="container-fluid">
         <div class="row header-row-height">
 
             <!-- Bootstrap Navbar Collapse -->
@@ -33,7 +33,7 @@
 
                     <!-- Menu Links -->
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-5 mt-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link navbar-link-custom header-font-size" href="#about">Hakkımızda</a>
                             </li>
@@ -66,7 +66,7 @@
 
     <!-- Hero Section -->
     <div class="row d-flex">
-        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
             <div class="col-12 hero-title-container">
                 <div class="underline">
                     <h1 class="text-orange fw-bold text-left" style="font-size:70px; padding-left:3rem;">GEZGÖZ</h1>
@@ -84,12 +84,15 @@
                     </p>
                 </div>
             </div>
-            <div class="col-12 hero-download-btn">
+            <div class="col-12 d-md-none d-flex align-items-center flex-column hero-download-btn">
+                <a href="#" class="btn btn-download-custom mt-3 float-right">Hemen İndir</a>
+            </div>
+            <div class="col-12 d-none d-md-block hero-download-btn">
                 <a href="#" class="btn btn-download-custom mt-3 float-right">Hemen İndir</a>
             </div>
         </div>
 
-        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
             <div class="row">
                 <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 slider-card-first">
                     <img class="product-card" src="/wwwroot/product-card.png" alt="Uygulama Özelliği 1" />
@@ -127,7 +130,9 @@
         <div class="row margin-top-100">
             <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8"></div>
             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 section-title-border-white">
-                <h2 class="section-title-custom text-left">HAKKIMIZDA</h2>
+                <div class="underline">
+                    <h2 class="section-title-custom text-left">HAKKIMIZDA</h2>
+                </div>
             </div>
         </div>
 
@@ -284,7 +289,17 @@
                                 </div>
                                 <div class="row">
                                     <div class="sosyalbutonlar w-100">
-                                        <!-- sosyal linkler aynı -->
+
+                                        <a href="http://twitter.com/gezgozofficial" target="_blank" class="twitter"><i
+                                                class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href="http://instagram.com/gezgoz_official" target="_blank"
+                                            class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        <a href="https://www.linkedin.com/in/poyraz-alkan/" target="_blank"
+                                            class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        <a href="http://youtube.com/@gezgözofficial" target="_blank" class="youtube"><i
+                                                class="fa fa-youtube" aria-hidden="true"></i></a>
+
+
                                     </div>
                                 </div>
                                 <p class="w-100 margin-top-50">

@@ -1,0 +1,731 @@
+      /* Genel Stiller */
+      .navbar-custom {
+          background-color: #f8f9fa;
+      }
+
+
+
+      .navbar-brand-custom {
+          display: flex;
+          align-items: center;
+      }
+
+      .navbar-brand-custom img {
+          height: 40px;
+          margin-right: 10px;
+      }
+
+      .navbar-link-custom {
+          color: #6c757d;
+          font-weight: 500;
+          margin-right: 20px;
+      }
+
+      .navbar-link-custom:hover {
+          color: #ff7043;
+      }
+
+      .footer-custom {
+          background-color: #777777;
+          color: #000000;
+          font-family: Inter;
+          font-weight: 600;
+          font-size: 20px;
+      }
+
+      .footer-custom a {
+          text-decoration: none;
+          color: white;
+          font-weight: bolder;
+          cursor: pointer;
+      }
+
+      .Poweredby {
+          font-size: 14px;
+          background-color: #ff7043;
+          color: white;
+      }
+
+      .Poweredby a {
+          text-decoration: none;
+          color: white;
+          font-weight: bolder;
+          cursor: pointer;
+
+      }
+
+      /* Hero Section */
+      .text-orange {
+          color: #ff7043;
+      }
+
+      .hero-section {
+          background-color: #f5f5f5;
+          padding: 80px 0;
+          display: flex;
+          align-items: center;
+      }
+
+      .hero-content-custom {
+          max-width: 400px;
+          margin-bottom: 20px;
+      }
+
+      .hero-images img {
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+      }
+
+      .btn-download-custom {
+          background-color: #ff7043;
+          color: white;
+          border-radius: 20px;
+          font-size: 2.2rem;
+          padding: 10px 30px;
+
+      }
+
+      .btn-download-custom:hover {
+          background-color: #ff5722;
+      }
+
+      .feature-content-custom {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+          justify-content: center;
+          margin-top: 40px;
+      }
+
+      .feature-item-custom {
+          background-color: #ffffff;
+          border-radius: 15px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          text-align: center;
+      }
+
+      /* Feature Section */
+      .feature-section-custom {
+          background-color: #d9d9d9;
+          padding: 50px 0;
+      }
+
+      .feature-description-custom {
+          font-size: 2.6rem;
+          color: #5c5c5c;
+          margin-top: 20px;
+      }
+
+      /* Download Section */
+      .download-section-custom {
+          background-color: #f5f5f5;
+          padding: 50px 0;
+      }
+
+      .download-card-custom {
+          background-color: white;
+          padding: 20px;
+          border-radius: 15px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          text-align: center;
+      }
+
+      .btn-ios-custom {
+          background-color: #ff7043;
+          color: white;
+          border-radius: 20px;
+          margin-top: 10px;
+          float: right;
+          font-size: xx-large;
+      }
+
+      .btn-android-custom {
+          background-color: #757575;
+          color: white;
+          border-radius: 20px;
+          margin-top: 10px;
+          float: right;
+          font-size: xx-large;
+      }
+
+      /* About, References and Support Sections */
+      .about-section-custom,
+      .references-section-custom,
+      .support-section-custom {
+          padding: 50px 0;
+      }
+
+      .about-section-custom {
+          background-color: #ff7043;
+          color: white;
+
+      }
+
+      .support-section-custom {
+          background-color: #c4c4c4;
+      }
+
+      .top-header {
+          width: 299px;
+          height: 85px;
+          top: 330px;
+          left: 42px;
+          gap: 0px;
+          opacity: 0px;
+          color: #ff7043;
+          border-bottom: 1px solid black;
+      }
+
+      .text-right {
+          text-align: right;
+      }
+
+      .text-left {
+          text-align: left;
+      }
+
+      .underline {
+
+
+          border-bottom: 4px solid gray;
+          margin-bottom: 55px;
+      }
+
+      .container-width {
+          width: 75%;
+      }
+
+      .concert-card {
+          position: absolute;
+          top: 200px;
+          z-index: 1300;
+          height: 1000px;
+      }
+
+      .slider-card-first {
+          text-align: right;
+          padding-top: 100px;
+          height: 700px;
+      }
+
+      .product-card {
+          width: 370px;
+      }
+
+      .hero-head {
+          font-family: Inter;
+          font-weight: 600;
+          font-size: 80px;
+          line-height: 100%;
+          letter-spacing: 0%;
+          color: #666666;
+
+
+      }
+
+      .hero-text {
+          font-family: Inter;
+          font-weight: 400;
+          font-size: 38px;
+          line-height: 100%;
+          letter-spacing: 0%;
+          text-align: right;
+          color: #666666;
+
+      }
+
+      .header-font-size {
+          font-family: Inter;
+          font-weight: 800;
+          font-size: 28px;
+          line-height: 100%;
+          letter-spacing: 0%;
+
+      }
+
+      .map-card {
+          position: absolute;
+          z-index: 1000;
+          top: 1150px;
+          left: 1080px;
+
+      }
+
+
+
+      .section-title-custom {
+          font-family: Inter;
+          font-weight: 600;
+          font-size: 50px;
+          line-height: 100%;
+          letter-spacing: 0%;
+
+      }
+
+      .about-text {
+          font-family: Inter;
+          font-weight: 200;
+          font-size: 30px;
+          line-height: 100%;
+          letter-spacing: 00%;
+
+      }
+
+      .references-bg {
+          background-color: #ff7043;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding-left: 15%;
+          padding-right: 15%;
+      }
+
+      .references-bg>img {
+          width: 300px;
+          height: 128px;
+          margin-left: 40px;
+          object-fit: fill;
+      }
+
+      .qr-img {
+          height: 150px;
+      }
+
+      .my-info {
+          font-weight: bolder;
+      }
+
+      .sosyalbutonlar {
+          margin-top: 50px;
+          display: inline-block;
+          position: relative;
+      }
+
+      .sosyalbutonlar a {
+          background: #a1a1a1;
+          text-decoration: none;
+          color: #FFF;
+          width: 60px;
+          height: 60px;
+          display: inline-block;
+          border-radius: 10px;
+          margin-right: 20px;
+          font-size: 30px;
+          overflow: hidden;
+          position: relative;
+          line-height: 60px;
+          text-align: center;
+      }
+
+      .sosyalbutonlar a {
+          transition: transform 0.4s linear 0s,
+              border-top-left-radius 0.1s linear 0s,
+              border-top-right-radius 0.1s linear 0.1s,
+              border-bottom-right-radius 0.1s linear 0.2s,
+              border-bottom-left-radius 0.1s linear 0.3s;
+
+      }
+
+      .sosyalbutonlar .facebook:hover {
+          background-color: #3b5998;
+          transform: rotate(360deg);
+          border-radius: 50%;
+      }
+
+      .sosyalbutonlar .twitter:hover {
+          background-color: #00aced;
+          transform: rotate(360deg);
+          border-radius: 50%;
+      }
+
+      .sosyalbutonlar .google-plus:hover {
+          background-color: #dd4b39;
+          transform: rotate(360deg);
+          border-radius: 50%;
+      }
+
+      .sosyalbutonlar .instagram:hover {
+          background-color: #bc2a8d;
+          transform: rotate(360deg);
+          border-radius: 50%;
+      }
+
+      .sosyalbutonlar .linkedin:hover {
+          background-color: #00aced;
+          transform: rotate(360deg);
+          border-radius: 50%;
+      }
+
+      .sosyalbutonlar .youtube:hover {
+          background-color: #bb0000;
+          transform: rotate(360deg);
+          border-radius: 50%;
+      }
+
+      body {
+          background-color: #F1F1F1;
+          /* Açık gri bir arka plan rengi */
+          overflow-x: hidden;
+      }
+
+      /* Büyük ekranlar için ayarlar (1200px ve üstü) */
+      @media (min-width: 1440) {
+          .header-font-size {
+              font-size: 20px;
+          }
+      }
+
+      @media (max-width: 1439) {
+          .header-font-size {
+              font-size: 20px;
+          }
+      }
+
+      /* Tablet ve küçük dizüstüler için (992px - 1199px) */
+      @media (max-width: 1199px) {
+          .hero-head {
+              font-size: 50px;
+          }
+
+          .hero-text {
+              font-size: 24px;
+              text-align: center;
+          }
+
+          .feature-description-custom {
+              font-size: 40px;
+          }
+
+          .map-card {
+              position: static;
+              width: 100%;
+              margin-top: 20px;
+          }
+
+          .concert-card {
+              position: static;
+              width: 100%;
+              margin-top: 20px;
+          }
+      }
+
+      /* Mobil ve tablet (768px - 991px) */
+      @media (max-width: 991px) {
+          .hero-head {
+              font-size: 36px;
+          }
+
+          .hero-text {
+              font-size: 20px;
+          }
+
+          .feature-description-custom {
+              font-size: 28px;
+          }
+
+          .references-bg {
+              flex-wrap: wrap;
+              justify-content: center;
+          }
+
+          .references-bg img {
+              width: 200px;
+              height: auto;
+              margin-bottom: 20px;
+          }
+
+          .qr-share {
+              display: none !important;
+          }
+
+          .header-font-size {
+              font-size: 20px;
+          }
+
+          .download-card-custom a {
+              font-size: large;
+          }
+      }
+
+      /* Küçük mobil (576px ve altı) */
+      @media (max-width: 576px) {
+          .hero-head {
+              font-size: 28px;
+          }
+
+          .hero-text {
+              font-size: 16px;
+          }
+
+          .feature-description-custom {
+              font-size: 20px;
+          }
+
+          .references-bg img {
+              width: 150px;
+              height: auto;
+              margin-bottom: 15px;
+          }
+
+          .navbar-link-custom {
+              font-size: 16px;
+              margin-bottom: 10px;
+              display: block;
+          }
+
+          .hero-section {
+              flex-direction: column;
+              padding: 40px 10px;
+          }
+
+          .feature-section-custom {
+              flex-direction: column;
+              padding: 30px 10px;
+          }
+
+          .download-section-custom .col-md-5 {
+              width: 100%;
+          }
+
+          iframe {
+              width: 100% !important;
+              height: 300px !important;
+          }
+
+          .concert-card,
+          .map-card {
+              position: static;
+              width: 100%;
+              margin-top: 10px;
+          }
+
+          .footer-custom .d-flex {
+              flex-direction: column;
+          }
+
+          .footer-custom a {
+              margin-bottom: 10px;
+          }
+      }
+
+      /* Genel utility classlar */
+      .margin-top-50 {
+          margin-top: 50px !important;
+      }
+
+      .margin-top-100 {
+          margin-top: 100px !important;
+      }
+
+      .margin-right-20 {
+          margin-right: 20% !important;
+      }
+
+      .padding-left-30 {
+          padding-left: 30px !important;
+      }
+
+      /* Header yükseklik */
+      .header-row-height {
+          height: 150px;
+      }
+
+      /* Hero bölüm başlığı */
+      .hero-title-container {
+          height: 150px;
+          margin-top: 230px;
+      }
+
+      /* Section başlık altı çizgiler */
+      .section-title-border-white {
+          border-bottom: 4px solid white;
+      }
+
+      .section-title-border-dark {
+          border-bottom: 4px solid rgb(82, 78, 78);
+      }
+
+      /* QR image */
+      .qr-img {
+          width: auto;
+          height: auto;
+          max-height: 100px;
+      }
+
+      /* Map iframe */
+      .map-iframe {
+          border: 0;
+          margin-top: 50px;
+          width: 100%;
+          height: 425px;
+      }
+
+      /* Hero download buton */
+      .hero-download-btn {
+          height: 110px;
+      }
+
+      /* Hero text container */
+      .hero-text-container {
+          height: 200px;
+      }
+
+      /* Logo büyük */
+      .logo-large {
+          height: 70px;
+          width: 300px;
+          margin-top: 50px;
+      }
+
+      /* Logo header */
+      .logo-header {
+          height: 70px;
+      }
+
+      /* Support section background */
+      .support-bg {
+          background-color: #B2B2B2;
+      }
+
+      /* Footer */
+      .footer-custom a {
+          text-decoration: none;
+          color: white;
+          font-weight: bolder;
+          cursor: pointer;
+      }
+
+      /* Responsive uyarlamalar */
+      @media (max-width: 1199px) {
+          .hero-head {
+              font-size: 50px;
+          }
+          .logo-header {
+            height: 40px;
+        }
+          .hero-text {
+              font-size: 24px;
+              text-align: center;
+          }
+
+          .feature-description-custom {
+              font-size: 40px;
+          }
+
+          .map-card {
+              position: static;
+              width: 100%;
+              margin-top: 20px;
+          }
+
+          .concert-card {
+              position: static;
+              width: 100%;
+              margin-top: 20px;
+          }
+      }
+
+      @media (max-width: 991px) {
+          .hero-head {
+              font-size: 36px;
+          }
+          .logo-header {
+            height: 40px;
+        }
+          .hero-text {
+              font-size: 20px;
+          }
+
+          .feature-description-custom {
+              font-size: 28px;
+          }
+
+          .references-bg {
+              flex-wrap: wrap;
+              justify-content: center;
+          }
+
+          .references-bg img {
+              width: 200px;
+              height: auto;
+              margin-bottom: 20px;
+          }
+
+          .qr-share {
+              display: none !important;
+          }
+
+          .header-font-size {
+              font-size: 20px;
+          }
+
+          .download-card-custom a {
+              font-size: large;
+          }
+      }
+
+      @media (max-width: 576px) {
+          .hero-head {
+              font-size: 28px;
+          }
+
+          /* Logo header */
+          .logo-header {
+              height: 40px;
+          }
+          .headsection{
+            padding: unset !important;
+          }
+          .hero-text {
+              font-size: 16px;
+          }
+
+          .feature-description-custom {
+              font-size: 20px;
+          }
+
+          .references-bg img {
+              width: 150px;
+              height: auto;
+              margin-bottom: 15px;
+          }
+
+          .navbar-link-custom {
+              font-size: 16px;
+              margin-bottom: 10px;
+              display: block;
+          }
+
+          .hero-section {
+              flex-direction: column;
+              padding: 40px 10px;
+          }
+
+          .feature-section-custom {
+              flex-direction: column;
+              padding: 30px 10px;
+          }
+
+          .download-section-custom .col-md-5 {
+              width: 100%;
+          }
+
+          .map-iframe {
+              height: 300px !important;
+          }
+
+          .concert-card,
+          .map-card {
+              position: static;
+              width: 100%;
+              margin-top: 10px;
+          }
+
+          .footer-custom .d-flex {
+              flex-direction: column;
+          }
+
+          .footer-custom a {
+              margin-bottom: 10px;
+          }
+      }
