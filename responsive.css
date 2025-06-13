@@ -1,3 +1,7 @@
+    .white {
+        color: white !important;
+    }
+
     .navbar-custom {
         background-color: #f8f9fa;
     }
@@ -181,11 +185,17 @@
         text-align: left;
     }
 
-    .float-right{
+    .float-right {
         float: right;
     }
+
     .underline {
         border-bottom: 4px solid gray;
+        margin-bottom: 55px;
+    }
+
+    .underline-white {
+        border-bottom: 4px solid rgb(255, 255, 255);
         margin-bottom: 55px;
     }
 
@@ -210,6 +220,7 @@
     .product-card {
         width: 370px;
     }
+
     .sale-card {
         width: 370px;
     }
@@ -222,6 +233,12 @@
         letter-spacing: 0%;
         color: #666666;
 
+
+    }
+
+    .hero-title {
+        font-size: 70px;
+        padding-left: 3rem;
 
     }
 
@@ -282,11 +299,12 @@
         padding-right: 15%;
     }
 
-    .references-bg>img {
+    .references-bg img {
         width: 300px;
         height: 128px;
         margin-left: 40px;
         object-fit: fill;
+        margin-top: 10px;
     }
 
     .qr-img {
@@ -299,6 +317,11 @@
 
     .my-info {
         font-weight: bolder;
+    }
+
+    .logo-large {
+        margin: 20px;
+        width: 350px;
     }
 
     .sosyalbutonlar {
@@ -423,6 +446,7 @@
             width: 200px;
             height: auto;
             margin-bottom: 20px;
+            margin-top: 10px;
         }
 
         .qr-share {
@@ -443,29 +467,62 @@
     }
 
     @media (max-width: 576px) {
-        
+
         .underline {
             border-bottom: 4px solid gray;
             margin-bottom: 25px;
         }
+
+        .underline-white {
+            border-bottom: 4px solid rgb(255, 255, 255);
+            margin-bottom: 25px;
+        }
+
+        .section-title-custom {
+            font-family: Inter;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 100%;
+            letter-spacing: 0%;
+
+        }
+
         .hero-head {
             font-size: 28px;
             padding-right: 10px;
         }
-        .product-card{
+
+        .hero-title {
+            font-size: 50px;
+            padding-left: 4rem;
+
+        }
+
+        .product-card {
             width: 300px;
         }
+
         .sale-card {
             width: 300px;
         }
-        .concert-card{
-         
-        }
+
+
+
         .slider-card-first {
             text-align: right;
             padding-top: 0px;
             height: 700px;
         }
+
+        .about-text {
+            font-family: Inter;
+            font-weight: 200;
+            font-size: 26px;
+            line-height: 100%;
+            letter-spacing: 00%;
+
+        }
+
         .hero-text {
             font-size: 16px;
         }
@@ -477,7 +534,8 @@
         .references-bg img {
             width: 150px;
             height: auto;
-            margin-bottom: 15px;
+            margin-bottom: 50px;
+            margin-top: 25px;
         }
 
         .navbar-link-custom {
@@ -524,5 +582,26 @@
 
         .headsection {
             padding: unset !important;
+        }
+
+        .logo-large {
+            margin: 10px;
+            width: 270px;
+        }
+
+        .sosyalbutonlar a {
+            background: #a1a1a1;
+            text-decoration: none;
+            color: #FFF;
+            width: 48px;
+            height: 48px;
+            display: inline-block;
+            border-radius: 10px;
+            margin-right: 20px;
+            font-size: 30px;
+            overflow: hidden;
+            position: relative;
+            line-height: 48px;
+            text-align: center;
         }
     }
