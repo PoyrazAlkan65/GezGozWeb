@@ -270,8 +270,6 @@
 
     }
 
-
-
     .section-title-custom {
         font-family: Inter;
         font-weight: 600;
@@ -390,9 +388,10 @@
         transform: rotate(360deg);
         border-radius: 50%;
     }
-    .harita-boyut{
-        width: 100%!important;
-        height: 400px!important;
+
+    .harita-boyut {
+        width: 100% !important;
+        height: 400px !important;
     }
 
     body {
@@ -401,8 +400,7 @@
         overflow-x: hidden;
     }
 
-
-    @media (max-width: 1199px) {
+    @media (max-width: 1921px) {
         .hero-head {
             font-size: 50px;
         }
@@ -413,18 +411,150 @@
         }
 
         .feature-description-custom {
+            padding-left: 15%;
             font-size: 40px;
         }
 
-        .map-card,
+
         .concert-card {
             position: static;
             width: 100%;
             margin-top: 20px;
         }
 
+        .map-card {
+            position: absolute;
+            z-index: 1000;
+            top: 1050px;
+            left: 840px;
+        }
+
         .logo-header {
             height: 40px;
+        }
+
+        .logo-large {
+            margin: 10px;
+            width: 270px;
+        }
+
+        .cart-content {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 1441px) {
+        .product-card {
+            width: 250px;
+        }
+
+        .sale-card {
+            width: 250px;
+        }
+
+        .hero-head {
+            font-size: 50px;
+        }
+
+        .hero-text {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .feature-description-custom {
+            font-size: 28px;
+            padding-left: 40%;
+        }
+
+
+        .concert-card {
+            position: static;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .map-card {
+            position: absolute;
+            z-index: 1000;
+            top: 1100px;
+            left: 625px;
+
+        }
+
+        .logo-header {
+            margin-top: -30px;
+            height: 40px;
+        }
+
+        .cart-content {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 1199px) {
+        .product-card {
+            width: 250px;
+        }
+
+        .main-page-card {
+            width: 350px;
+        }
+
+        .sale-card {
+            width: 250px;
+        }
+
+        .header-font-size {
+            font-size: 22px;
+        }
+
+        .hero-head {
+            font-size: 50px;
+        }
+
+        .hero-text {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .feature-description-custom {
+            padding-left: 35%;
+            font-size: 28px;
+        }
+
+
+        .concert-card {
+            position: static;
+            width: 100%;
+            margin-top: 20px;
+            margin-left: 30%;
+        }
+
+        .map-card {
+            position: absolute;
+            z-index: 1000;
+            top: 1100px;
+            left: 450px;
+            width: 350px;
+        }
+
+        .logo-header {
+            height: 40px;
+        }
+
+        .logo-large {
+            margin: 20px;
+            width: 200px;
+        }
+
+        .cart-content {
+            font-size: 14px;
+        }
+
+        .harita-boyut {
+            margin-top: 50px;
+            width: 100% !important;
+            height: 700px !important;
         }
     }
 
@@ -608,9 +738,10 @@
             line-height: 48px;
             text-align: center;
         }
-        .harita-boyut{
+
+        .harita-boyut {
             margin: 10px;
-            width: 100%!important;
-            height: 700px!important;
+            width: 100% !important;
+            height: 700px !important;
         }
     }
