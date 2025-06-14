@@ -390,6 +390,10 @@
         transform: rotate(360deg);
         border-radius: 50%;
     }
+    .harita-boyut{
+        width: 100%!important;
+        height: 400px!important;
+    }
 
     body {
         background-color: #F1F1F1;
@@ -603,5 +607,10 @@
             position: relative;
             line-height: 48px;
             text-align: center;
+        }
+        .harita-boyut{
+            margin: 10px;
+            width: 100%!important;
+            height: 700px!important;
         }
     }
