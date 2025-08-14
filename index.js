@@ -5,6 +5,11 @@ const port = process.env.PORT
 
 app.use('/', express.static('public'))
 
+// Test 
+// app.get("/test-success", (req, res) => {
+//     res.sendFile(__dirname + '/public/success.html');
+// });
+
 app.get("/mailvalid/:code", async (req, res) => {
     let validCode = req.params.code || "";
     let errors = [];
@@ -17,7 +22,7 @@ app.get("/mailvalid/:code", async (req, res) => {
     try {
         sql.runSQLWithPool(sqlString, params, function (result) {
             if (result.recordset[0].UserId > 0) {
-                res.send({ field: "validCode", message: "Email Doğrulandı." });
+                res.sendFile(__dirname + '/public/success.html');
             }
             else { res.send({ field: "validCode", message: "Geçersiz Kod" }); }
         })

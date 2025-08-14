@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/fawico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/fawico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/fawico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/fawico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/fawico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/fawico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/fawico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/fawico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/fawico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/fawico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/fawico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/fawico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/fawico/favicon-16x16.png">
+    <link rel="manifest" href="/fawico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>GezGöz - Email Doğrulandı</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="responsive.css" rel="stylesheet">
+    <style>
+        .success-container {
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        .success-icon {
+            font-size: 5rem;
+            color: #28a745;
+            margin-bottom: 1rem;
+        }
+        .success-message {
+            font-size: 1.5rem;
+            color: #28a745;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .success-description {
+            font-size: 1.1rem;
+            color: #6c757d;
+            margin-bottom: 2rem;
+        }
+        .home-button {
+            background-color: #ff6b35;
+            border-color: #ff6b35;
+            padding: 0.75rem 2rem;
+            font-size: 1.1rem;
+            border-radius: 50px;
+        }
+        .home-button:hover {
+            background-color: #e55a2b;
+            border-color: #d14f26;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="container-fluid">
+        <div class="row header-row-height">
+            <!-- Bootstrap Navbar Collapse -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="#">
+                        <img src="/wwwroot/logo.png" alt="GezGöz Logo" class="logo-header" />
+                    </a>
+
+                    <!-- Hamburger Button -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Menu Links -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-5 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link navbar-link-custom header-font-size" href="#about">Hakkımızda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-link-custom header-font-size" href="#support">Destek</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-link-custom header-font-size" href="#paketler">Paketler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-link-custom header-font-size"
+                                    href="#references">Referanslar</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link navbar-link-custom header-font-size" href="#references">Android için
+                                    indir</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-link-custom header-font-size" href="#references">IOS için
+                                    indir</a>
+                            </li>
+                        </ul>
+
+                        <!-- QR kodu büyük ekranda göstermek için -->
+                        <div class="d-none d-lg-block ms-4">
+                            <img src="wwwroot/qr-removebg-preview.png" class="qr-img" />
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Success Message Section -->
+    <div class="success-container">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="card shadow rounded-4 p-5">
+                        <div class="card-body text-center">
+                            <div class="success-icon">
+                                <i class="fa fa-check-circle"></i>
+                            </div>
+                            <h2 class="success-message">Email Doğrulandı!</h2>
+                            <p class="success-description">
+                                Email adresiniz başarıyla doğrulandı. Artık GezGöz uygulamasının tüm özelliklerini kullanabilirsiniz.
+                            </p>
+                            <a href="/" class="btn home-button">
+                                <i class="fa fa-home me-2"></i>Ana Sayfaya Dön
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Kartın altına ekstra boşluk -->
+        <div style="height: 100px;"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-custom text-center">
+        <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 container-fluid">
+            <div class="d-flex align-items-center">
+                <div class="d-flex justify-content-between w-100 flex-wrap">
+                    <a class="col-sm-12 col-md-2 col-lg-4 col-xl-2" target="_blank"
+                        href="/wwwroot/Veri-Kullanim-Politikasi.pdf">Veri Kullanım
+                        Politikası</a>
+                    <a class="col-sm-12 col-md-2 col-lg-4 col-xl-2" target="_blank"
+                        href="/wwwroot/cerez-politikasi.pdf">Çerez Politikası</a>
+                    <a class="col-sm-12 col-md-2 col-lg-4 col-xl-2" target="_blank"
+                        href="/wwwroot/GEZGOZ-Gizlilik-Politikasi.pdf">Gizlilik
+                        Politikası</a>
+                    <a class="col-sm-12 col-md-2 col-lg-4 col-xl-2" target="_blank"
+                        href="/wwwroot/Kullanici-Sozlesmesi.pdf">Kullanıcı Sözleşmesi</a>
+                    <a class="col-sm-12 col-md-2 col-lg-4 col-xl-2" target="_blank"
+                        href="/wwwroot/KVKK-Onay-Metni.pdf">KVKK Onay Metni</a>
+                    <a class="col-sm-12 col-md-2 col-lg-4 col-xl-2" target="_blank"
+                        href="/wwwroot/kvkk-aydinlatma-metni.pdf">KVKK Aydınlatma Metni</a>
+                </div>
+            </div>
+    </footer>
+
+    <div class="col-12 container-fluid text-center Poweredby">
+        <p>Copyright © 2024 - www.gezgoz.com Powered by: <a href="https://academycodehub.com">Academy Code Hub</a></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
