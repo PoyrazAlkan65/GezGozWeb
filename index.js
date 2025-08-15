@@ -9,7 +9,9 @@ app.use('/', express.static('public'))
 // app.get("/test-success", (req, res) => {
 //     res.sendFile(__dirname + '/public/success.html');
 // });
-
+app.get("/PostShare/:PostShareLink", async (req, res) => {
+    
+})
 app.get("/mailvalid/:code", async (req, res) => {
     let validCode = req.params.code || "";
     let errors = [];
