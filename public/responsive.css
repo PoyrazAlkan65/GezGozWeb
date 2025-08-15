@@ -1,7 +1,15 @@
     .white {
         color: white !important;
     }
-
+    .white-bg {
+        background-color: white !important;
+    }
+    .anthracite {
+        color: #393E42 !important;
+    } 
+    .anthracite-bg {
+        background-color: #393E42 !important;
+    }
     .navbar-custom {
         background-color: #f8f9fa;
     }
